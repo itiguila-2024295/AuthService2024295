@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "qg+jaZlwSPM=",
+  "success": true,
+  "projectFilePath": "C:\\6to2026\\AuthService2024295\\src\\AuthServiceIN6BV.Domain\\AuthServiceIN6BV.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ISAAC\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.22\\microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
+    "C:\\Users\\ISAAC\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.22\\microsoft.windowsdesktop.app.ref.8.0.22.nupkg.sha512",
+    "C:\\Users\\ISAAC\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.22\\microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512"
+  ],
+  "logs": []
+}

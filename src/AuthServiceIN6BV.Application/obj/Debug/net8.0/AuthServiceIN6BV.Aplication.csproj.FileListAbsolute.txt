@@ -1,0 +1,15 @@
+C:\Ejercicios IN6BV\AuthService2024295\src\AuthServiceIN6BV.Application\bin\Debug\net8.0\AuthServiceIN6BV.Aplication.deps.json
+C:\Ejercicios IN6BV\AuthService2024295\src\AuthServiceIN6BV.Application\bin\Debug\net8.0\AuthServiceIN6BV.Aplication.dll
+C:\Ejercicios IN6BV\AuthService2024295\src\AuthServiceIN6BV.Application\bin\Debug\net8.0\AuthServiceIN6BV.Aplication.pdb
+C:\Ejercicios IN6BV\AuthService2024295\src\AuthServiceIN6BV.Application\bin\Debug\net8.0\AuthServiceIN6BV.Domain.dll
+C:\Ejercicios IN6BV\AuthService2024295\src\AuthServiceIN6BV.Application\bin\Debug\net8.0\AuthServiceIN6BV.Domain.pdb
+C:\Ejercicios IN6BV\AuthService2024295\src\AuthServiceIN6BV.Application\obj\Debug\net8.0\AuthServiceIN6BV.Aplication.csproj.AssemblyReference.cache
+C:\Ejercicios IN6BV\AuthService2024295\src\AuthServiceIN6BV.Application\obj\Debug\net8.0\AuthServiceIN6BV.Aplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Ejercicios IN6BV\AuthService2024295\src\AuthServiceIN6BV.Application\obj\Debug\net8.0\AuthServiceIN6BV.Aplication.AssemblyInfoInputs.cache
+C:\Ejercicios IN6BV\AuthService2024295\src\AuthServiceIN6BV.Application\obj\Debug\net8.0\AuthServiceIN6BV.Aplication.AssemblyInfo.cs
+C:\Ejercicios IN6BV\AuthService2024295\src\AuthServiceIN6BV.Application\obj\Debug\net8.0\AuthServiceIN6BV.Aplication.csproj.CoreCompileInputs.cache
+C:\Ejercicios IN6BV\AuthService2024295\src\AuthServiceIN6BV.Application\obj\Debug\net8.0\AuthServ.7A41EDBB.Up2Date
+C:\Ejercicios IN6BV\AuthService2024295\src\AuthServiceIN6BV.Application\obj\Debug\net8.0\AuthServiceIN6BV.Aplication.dll
+C:\Ejercicios IN6BV\AuthService2024295\src\AuthServiceIN6BV.Application\obj\Debug\net8.0\refint\AuthServiceIN6BV.Aplication.dll
+C:\Ejercicios IN6BV\AuthService2024295\src\AuthServiceIN6BV.Application\obj\Debug\net8.0\AuthServiceIN6BV.Aplication.pdb
+C:\Ejercicios IN6BV\AuthService2024295\src\AuthServiceIN6BV.Application\obj\Debug\net8.0\ref\AuthServiceIN6BV.Aplication.dll
