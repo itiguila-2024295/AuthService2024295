@@ -8,26 +8,24 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ISAAC\\.nuget\\packages\\": {}
+    "C:\\Users\\informatica\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\6to2026\\AuthService2024295\\src\\AuthServiceIN6BV.Domain\\AuthServiceIN6BV.Domain.csproj",
+      "projectUniqueName": "C:\\IN6BV\\AuthService2024295\\src\\AuthServiceIN6BV.Domain\\AuthServiceIN6BV.Domain.csproj",
       "projectName": "AuthServiceIN6BV.Domain",
-      "projectPath": "C:\\6to2026\\AuthService2024295\\src\\AuthServiceIN6BV.Domain\\AuthServiceIN6BV.Domain.csproj",
-      "packagesPath": "C:\\Users\\ISAAC\\.nuget\\packages\\",
-      "outputPath": "C:\\6to2026\\AuthService2024295\\src\\AuthServiceIN6BV.Domain\\obj\\",
+      "projectPath": "C:\\IN6BV\\AuthService2024295\\src\\AuthServiceIN6BV.Domain\\AuthServiceIN6BV.Domain.csproj",
+      "packagesPath": "C:\\Users\\informatica\\.nuget\\packages\\",
+      "outputPath": "C:\\IN6BV\\AuthService2024295\\src\\AuthServiceIN6BV.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ISAAC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\informatica\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -40,13 +38,7 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "10.0.100"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -62,26 +54,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.22, 8.0.22]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.22, 8.0.22]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[8.0.22, 8.0.22]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.123/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

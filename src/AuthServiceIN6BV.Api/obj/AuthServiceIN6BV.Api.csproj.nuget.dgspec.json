@@ -1,38 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "C:\\6to2026\\AuthService2024295\\src\\AuthServiceIN6BV.Api\\AuthServiceIN6BV.Api.csproj": {}
+    "C:\\IN6BV\\AuthService2024295\\src\\AuthServiceIN6BV.Api\\AuthServiceIN6BV.Api.csproj": {}
   },
   "projects": {
-    "C:\\6to2026\\AuthService2024295\\src\\AuthServiceIN6BV.Api\\AuthServiceIN6BV.Api.csproj": {
+    "C:\\IN6BV\\AuthService2024295\\src\\AuthServiceIN6BV.Api\\AuthServiceIN6BV.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\6to2026\\AuthService2024295\\src\\AuthServiceIN6BV.Api\\AuthServiceIN6BV.Api.csproj",
+        "projectUniqueName": "C:\\IN6BV\\AuthService2024295\\src\\AuthServiceIN6BV.Api\\AuthServiceIN6BV.Api.csproj",
         "projectName": "AuthServiceIN6BV.Api",
-        "projectPath": "C:\\6to2026\\AuthService2024295\\src\\AuthServiceIN6BV.Api\\AuthServiceIN6BV.Api.csproj",
-        "packagesPath": "C:\\Users\\ISAAC\\.nuget\\packages\\",
-        "outputPath": "C:\\6to2026\\AuthService2024295\\src\\AuthServiceIN6BV.Api\\obj\\",
+        "projectPath": "C:\\IN6BV\\AuthService2024295\\src\\AuthServiceIN6BV.Api\\AuthServiceIN6BV.Api.csproj",
+        "packagesPath": "C:\\Users\\informatica\\.nuget\\packages\\",
+        "outputPath": "C:\\IN6BV\\AuthService2024295\\src\\AuthServiceIN6BV.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ISAAC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\informatica\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\6to2026\\AuthService2024295\\src\\AuthServiceIN6BV.Application\\AuthServiceIN6BV.Aplication.csproj": {
-                "projectPath": "C:\\6to2026\\AuthService2024295\\src\\AuthServiceIN6BV.Application\\AuthServiceIN6BV.Aplication.csproj"
+              "C:\\IN6BV\\AuthService2024295\\src\\AuthServiceIN6BV.Application\\AuthServiceIN6BV.Aplication.csproj": {
+                "projectPath": "C:\\IN6BV\\AuthService2024295\\src\\AuthServiceIN6BV.Application\\AuthServiceIN6BV.Aplication.csproj"
               },
-              "C:\\6to2026\\AuthService2024295\\src\\AuthServiceIN6BV.Persistence\\AuthServiceIN6BV.Persistance.csproj": {
-                "projectPath": "C:\\6to2026\\AuthService2024295\\src\\AuthServiceIN6BV.Persistence\\AuthServiceIN6BV.Persistance.csproj"
+              "C:\\IN6BV\\AuthService2024295\\src\\AuthServiceIN6BV.Persistence\\AuthServiceIN6BV.Persistance.csproj": {
+                "projectPath": "C:\\IN6BV\\AuthService2024295\\src\\AuthServiceIN6BV.Persistence\\AuthServiceIN6BV.Persistance.csproj"
               }
             }
           }
@@ -41,13 +39,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "10.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -73,24 +65,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[8.0.22, 8.0.22]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -99,36 +73,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.123/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\6to2026\\AuthService2024295\\src\\AuthServiceIN6BV.Application\\AuthServiceIN6BV.Aplication.csproj": {
+    "C:\\IN6BV\\AuthService2024295\\src\\AuthServiceIN6BV.Application\\AuthServiceIN6BV.Aplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\6to2026\\AuthService2024295\\src\\AuthServiceIN6BV.Application\\AuthServiceIN6BV.Aplication.csproj",
+        "projectUniqueName": "C:\\IN6BV\\AuthService2024295\\src\\AuthServiceIN6BV.Application\\AuthServiceIN6BV.Aplication.csproj",
         "projectName": "AuthServiceIN6BV.Aplication",
-        "projectPath": "C:\\6to2026\\AuthService2024295\\src\\AuthServiceIN6BV.Application\\AuthServiceIN6BV.Aplication.csproj",
-        "packagesPath": "C:\\Users\\ISAAC\\.nuget\\packages\\",
-        "outputPath": "C:\\6to2026\\AuthService2024295\\src\\AuthServiceIN6BV.Application\\obj\\",
+        "projectPath": "C:\\IN6BV\\AuthService2024295\\src\\AuthServiceIN6BV.Application\\AuthServiceIN6BV.Aplication.csproj",
+        "packagesPath": "C:\\Users\\informatica\\.nuget\\packages\\",
+        "outputPath": "C:\\IN6BV\\AuthService2024295\\src\\AuthServiceIN6BV.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ISAAC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\informatica\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\6to2026\\AuthService2024295\\src\\AuthServiceIN6BV.Domain\\AuthServiceIN6BV.Domain.csproj": {
-                "projectPath": "C:\\6to2026\\AuthService2024295\\src\\AuthServiceIN6BV.Domain\\AuthServiceIN6BV.Domain.csproj"
+              "C:\\IN6BV\\AuthService2024295\\src\\AuthServiceIN6BV.Domain\\AuthServiceIN6BV.Domain.csproj": {
+                "projectPath": "C:\\IN6BV\\AuthService2024295\\src\\AuthServiceIN6BV.Domain\\AuthServiceIN6BV.Domain.csproj"
               }
             }
           }
@@ -137,18 +109,16 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "10.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Konscious.Security.Cryptography.Argon2": {
+              "target": "Package",
+              "version": "[1.3.1, )"
+            },
             "Microsoft.Extensions.Logging.Abstractions": {
               "target": "Package",
               "version": "[9.0.9, )"
@@ -165,47 +135,31 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.123/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\6to2026\\AuthService2024295\\src\\AuthServiceIN6BV.Domain\\AuthServiceIN6BV.Domain.csproj": {
+    "C:\\IN6BV\\AuthService2024295\\src\\AuthServiceIN6BV.Domain\\AuthServiceIN6BV.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\6to2026\\AuthService2024295\\src\\AuthServiceIN6BV.Domain\\AuthServiceIN6BV.Domain.csproj",
+        "projectUniqueName": "C:\\IN6BV\\AuthService2024295\\src\\AuthServiceIN6BV.Domain\\AuthServiceIN6BV.Domain.csproj",
         "projectName": "AuthServiceIN6BV.Domain",
-        "projectPath": "C:\\6to2026\\AuthService2024295\\src\\AuthServiceIN6BV.Domain\\AuthServiceIN6BV.Domain.csproj",
-        "packagesPath": "C:\\Users\\ISAAC\\.nuget\\packages\\",
-        "outputPath": "C:\\6to2026\\AuthService2024295\\src\\AuthServiceIN6BV.Domain\\obj\\",
+        "projectPath": "C:\\IN6BV\\AuthService2024295\\src\\AuthServiceIN6BV.Domain\\AuthServiceIN6BV.Domain.csproj",
+        "packagesPath": "C:\\Users\\informatica\\.nuget\\packages\\",
+        "outputPath": "C:\\IN6BV\\AuthService2024295\\src\\AuthServiceIN6BV.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ISAAC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\informatica\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -218,13 +172,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "10.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -240,58 +188,42 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.123/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\6to2026\\AuthService2024295\\src\\AuthServiceIN6BV.Persistence\\AuthServiceIN6BV.Persistance.csproj": {
+    "C:\\IN6BV\\AuthService2024295\\src\\AuthServiceIN6BV.Persistence\\AuthServiceIN6BV.Persistance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\6to2026\\AuthService2024295\\src\\AuthServiceIN6BV.Persistence\\AuthServiceIN6BV.Persistance.csproj",
+        "projectUniqueName": "C:\\IN6BV\\AuthService2024295\\src\\AuthServiceIN6BV.Persistence\\AuthServiceIN6BV.Persistance.csproj",
         "projectName": "AuthServiceIN6BV.Persistance",
-        "projectPath": "C:\\6to2026\\AuthService2024295\\src\\AuthServiceIN6BV.Persistence\\AuthServiceIN6BV.Persistance.csproj",
-        "packagesPath": "C:\\Users\\ISAAC\\.nuget\\packages\\",
-        "outputPath": "C:\\6to2026\\AuthService2024295\\src\\AuthServiceIN6BV.Persistence\\obj\\",
+        "projectPath": "C:\\IN6BV\\AuthService2024295\\src\\AuthServiceIN6BV.Persistence\\AuthServiceIN6BV.Persistance.csproj",
+        "packagesPath": "C:\\Users\\informatica\\.nuget\\packages\\",
+        "outputPath": "C:\\IN6BV\\AuthService2024295\\src\\AuthServiceIN6BV.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ISAAC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\informatica\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\6to2026\\AuthService2024295\\src\\AuthServiceIN6BV.Application\\AuthServiceIN6BV.Aplication.csproj": {
-                "projectPath": "C:\\6to2026\\AuthService2024295\\src\\AuthServiceIN6BV.Application\\AuthServiceIN6BV.Aplication.csproj"
+              "C:\\IN6BV\\AuthService2024295\\src\\AuthServiceIN6BV.Application\\AuthServiceIN6BV.Aplication.csproj": {
+                "projectPath": "C:\\IN6BV\\AuthService2024295\\src\\AuthServiceIN6BV.Application\\AuthServiceIN6BV.Aplication.csproj"
               },
-              "C:\\6to2026\\AuthService2024295\\src\\AuthServiceIN6BV.Domain\\AuthServiceIN6BV.Domain.csproj": {
-                "projectPath": "C:\\6to2026\\AuthService2024295\\src\\AuthServiceIN6BV.Domain\\AuthServiceIN6BV.Domain.csproj"
+              "C:\\IN6BV\\AuthService2024295\\src\\AuthServiceIN6BV.Domain\\AuthServiceIN6BV.Domain.csproj": {
+                "projectPath": "C:\\IN6BV\\AuthService2024295\\src\\AuthServiceIN6BV.Domain\\AuthServiceIN6BV.Domain.csproj"
               }
             }
           }
@@ -300,13 +232,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "10.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -322,26 +248,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.123/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
