@@ -32,13 +32,13 @@ public class User{
     public bool Status {get; set;} = false;
 
     [Required]
-    public DateTime CreateAt {get; set;}
+    public DateTime CreatedAt {get; set;}
     [Required]
-    public DateTime UpdateAt {get; set;}
+    public DateTime UpdatedAt {get; set;}
 
     public UserProfile UserProfile {get; set;} = null!;
 
-    public ICollection<UserRole> UserRoes {get; set;} = [];
+    public ICollection<UserRole> UserRoles {get; set;} = [];
 
     public UserEmail UserEmail {get; set;} = null!;
     public UserPasswordReset UserPasswordReset {get; set;} = null!;
