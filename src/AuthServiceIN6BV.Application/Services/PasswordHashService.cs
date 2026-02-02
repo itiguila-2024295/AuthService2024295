@@ -4,7 +4,7 @@ using System.Reflection.Metadata;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace AuthServiceIN6BV.Aplication.Services;
+namespace AuthServiceIN6BV.Application.Services;
 
 public class PasswordHashService : IPasswordHashService
 {

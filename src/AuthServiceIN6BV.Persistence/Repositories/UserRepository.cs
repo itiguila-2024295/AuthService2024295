@@ -1,4 +1,4 @@
-using AuthServiceIN6BV.Aplication.Services;
+using AuthServiceIN6BV.Application.Services;
 using AuthServiceIN6BV.Domain.Entities;
 using AuthServiceIN6BV.Domain.Interface;
 using AuthServiceIN6BV.Persistance.Data;

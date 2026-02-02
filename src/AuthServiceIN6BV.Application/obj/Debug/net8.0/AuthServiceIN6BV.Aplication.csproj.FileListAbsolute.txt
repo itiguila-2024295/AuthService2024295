@@ -13,3 +13,19 @@ C:\Ejercicios IN6BV\AuthService2024295\src\AuthServiceIN6BV.Application\obj\Debu
 C:\Ejercicios IN6BV\AuthService2024295\src\AuthServiceIN6BV.Application\obj\Debug\net8.0\refint\AuthServiceIN6BV.Aplication.dll
 C:\Ejercicios IN6BV\AuthService2024295\src\AuthServiceIN6BV.Application\obj\Debug\net8.0\AuthServiceIN6BV.Aplication.pdb
 C:\Ejercicios IN6BV\AuthService2024295\src\AuthServiceIN6BV.Application\obj\Debug\net8.0\ref\AuthServiceIN6BV.Aplication.dll
+C:\IN6BV\AuthService2024295\src\AuthServiceIN6BV.Application\obj\Debug\net8.0\AuthServiceIN6BV.Aplication.csproj.AssemblyReference.cache
+C:\IN6BV\AuthService2024295\src\AuthServiceIN6BV.Application\obj\Debug\net8.0\AuthServiceIN6BV.Aplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\IN6BV\AuthService2024295\src\AuthServiceIN6BV.Application\obj\Debug\net8.0\AuthServiceIN6BV.Aplication.AssemblyInfoInputs.cache
+C:\IN6BV\AuthService2024295\src\AuthServiceIN6BV.Application\obj\Debug\net8.0\AuthServiceIN6BV.Aplication.AssemblyInfo.cs
+C:\IN6BV\AuthService2024295\src\AuthServiceIN6BV.Application\obj\Debug\net8.0\AuthServiceIN6BV.Aplication.csproj.CoreCompileInputs.cache
+C:\IN6BV\AuthService2024295\src\AuthServiceIN6BV.Application\obj\Debug\net8.0\AuthServiceIN6BV.Aplication.sourcelink.json
+C:\IN6BV\AuthService2024295\src\AuthServiceIN6BV.Application\obj\Debug\net8.0\AuthServiceIN6BV.Aplication.dll
+C:\IN6BV\AuthService2024295\src\AuthServiceIN6BV.Application\obj\Debug\net8.0\refint\AuthServiceIN6BV.Aplication.dll
+C:\IN6BV\AuthService2024295\src\AuthServiceIN6BV.Application\obj\Debug\net8.0\AuthServiceIN6BV.Aplication.pdb
+C:\IN6BV\AuthService2024295\src\AuthServiceIN6BV.Application\bin\Debug\net8.0\AuthServiceIN6BV.Aplication.deps.json
+C:\IN6BV\AuthService2024295\src\AuthServiceIN6BV.Application\bin\Debug\net8.0\AuthServiceIN6BV.Aplication.dll
+C:\IN6BV\AuthService2024295\src\AuthServiceIN6BV.Application\bin\Debug\net8.0\AuthServiceIN6BV.Aplication.pdb
+C:\IN6BV\AuthService2024295\src\AuthServiceIN6BV.Application\bin\Debug\net8.0\AuthServiceIN6BV.Domain.dll
+C:\IN6BV\AuthService2024295\src\AuthServiceIN6BV.Application\bin\Debug\net8.0\AuthServiceIN6BV.Domain.pdb
+C:\IN6BV\AuthService2024295\src\AuthServiceIN6BV.Application\obj\Debug\net8.0\AuthServiceIN6BV.Aplication.csproj.CopyComplete
+C:\IN6BV\AuthService2024295\src\AuthServiceIN6BV.Application\obj\Debug\net8.0\ref\AuthServiceIN6BV.Aplication.dll
