@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.Globalization;
 
-namespace AuthServiceIN6BV.Aplication.DTOs.Email;
+namespace AuthServiceIN6BV.Application.DTOs.Email;
 
 public class VerifyEmailDto
 {

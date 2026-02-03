@@ -35,3 +35,6 @@ C:\IN6BV\AuthService2024295\src\AuthServiceIN6BV.Persistence\bin\Debug\net8.0\Au
 C:\IN6BV\AuthService2024295\src\AuthServiceIN6BV.Persistence\obj\Debug\net8.0\AuthServiceIN6BV.Persistance.csproj.CopyComplete
 C:\IN6BV\AuthService2024295\src\AuthServiceIN6BV.Persistence\obj\Debug\net8.0\AuthServiceIN6BV.Persistance.genruntimeconfig.cache
 C:\IN6BV\AuthService2024295\src\AuthServiceIN6BV.Persistence\obj\Debug\net8.0\ref\AuthServiceIN6BV.Persistance.dll
+C:\Ejercicios IN6BV\AuthService2024295\src\AuthServiceIN6BV.Persistence\bin\Debug\net8.0\AuthServiceIN6BV.Persistance.runtimeconfig.json
+C:\Ejercicios IN6BV\AuthService2024295\src\AuthServiceIN6BV.Persistence\obj\Debug\net8.0\AuthServiceIN6BV.Persistance.sourcelink.json
+C:\Ejercicios IN6BV\AuthService2024295\src\AuthServiceIN6BV.Persistence\obj\Debug\net8.0\AuthServiceIN6BV.Persistance.genruntimeconfig.cache

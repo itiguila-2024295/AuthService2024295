@@ -67,7 +67,10 @@
       "System.Memory/4.5.4": {},
       "AuthServiceIN6BV.Domain/1.0.0": {
         "runtime": {
-          "AuthServiceIN6BV.Domain.dll": {}
+          "AuthServiceIN6BV.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
