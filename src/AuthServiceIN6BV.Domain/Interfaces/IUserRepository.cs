@@ -1,7 +1,7 @@
 
 using AuthServiceIN6BV.Domain.Entities;
 
-namespace AuthServiceIN6BV.Domain.Interface;
+namespace AuthServiceIN6BV.Domain.Interfaces;
 
 public interface IUserRepository
 {

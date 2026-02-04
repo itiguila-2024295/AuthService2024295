@@ -108,7 +108,7 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
                 .ValueGeneratedOnAdd();
             entity.Property(e => e.UserId)
                 .HasMaxLength(16);
-            entity.Property(e => e.Profilepicture)
+            entity.Property(e => e.ProfilePicture)
                 .HasDefaultValue("");
             entity.Property(e => e.Phone)
                 .HasMaxLength(8);
@@ -183,7 +183,7 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
         return base.SaveChanges();
     }
 
-    public override Task<int> SaveChangesAsync(bool acceptAllChangesOnSucces, CancellationToken cancelationToken = default)
+    public override Task<int> SaveChangesAsync(CancellationToken cancelationToken = default)
     {
         UpdateTiemstamps();
         return base.SaveChangesAsync(cancelationToken);

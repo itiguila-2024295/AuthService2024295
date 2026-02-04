@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 namespace AuthServiceIN6BV.Domain.Entities;
 
 
@@ -11,9 +12,9 @@ public class UserProfile{
     [MaxLength(16)]
     public string UserId { get; set; } = string.Empty;
 
+    [Column("profilepicture")]
     [MaxLength(512)]
-    public string Profilepicture {get; set;} = string.Empty;
-
+    public string ProfilePicture {get; set;} = string.Empty;
 
     [Required]
     [StringLength(8, MinimumLength = 8, ErrorMessage = "El número de telefono debe de tener exactamente 8 digitos")]

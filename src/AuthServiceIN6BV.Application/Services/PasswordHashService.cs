@@ -1,4 +1,4 @@
-using AuthServiceIN6BV.Aplication.Interfaces;
+using AuthServiceIN6BV.Application.Interfaces;
 using Konscious.Security.Cryptography;
 using System.Reflection.Metadata;
 using System.Security.Cryptography;

@@ -10,6 +10,7 @@ using AuthServiceIN6BV.Domain.Enums;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using AuthServiceIN6BV.Application.DTOs.Email;
+using AuthServiceIN6BV.Aplication.Exceptions;
 
 namespace AuthServiceIN6BV.Application.Services;
 
@@ -69,7 +70,7 @@ public class AuthService(
         }
 
         // Crear nuevo usuario y entidades relacionadas
-        var emailVerificationToken = TokenGenerator.GenerateEmailVerificationToken();
+        var emailVerificationToken = TokenGeneratorService.GenerateEmailVerificationToken();
 
         var userId = UuidGenerator.GenerateUserId();
         var userProfileId = UuidGenerator.GenerateUserId();
@@ -299,7 +300,7 @@ public class AuthService(
         }
 
         // Generar nuevo token
-        var newToken = TokenGenerator.GenerateEmailVerificationToken();
+        var newToken = TokenGeneratorService.GenerateEmailVerificationToken();
         user.UserEmail.EmailVerificationToken = newToken;
         user.UserEmail.EmailVerificationTokenExpiry = DateTime.UtcNow.AddHours(24);
 
@@ -343,7 +344,7 @@ public class AuthService(
         }
 
         // Generar token de reset
-        var resetToken = TokenGenerator.GeneratePasswordResetToken();
+        var resetToken = TokenGeneratorService.GeneratePasswordResetToken();
 
         if (user.UserPasswordReset == null)
         {

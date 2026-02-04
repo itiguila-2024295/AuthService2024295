@@ -1,5 +1,6 @@
 using AuthServiceIN6BV.Persistance.Data;
 using AuthServiceIN6BV.Api.Extensions;
+using AuthServiceIN6BV.Api.Middlewares;
 using AuthServiceIN6BV.Api.ModelBinders;
 using Serilog;
 using Microsoft.AspNetCore.Hosting.Server;
@@ -9,14 +10,14 @@ using Microsoft.AspNetCore.Mvc.ApplicationParts;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Host.UseSerilog((context, services,loggerConfiguration)=>
+builder.Host.UseSerilog((context, services, loggerConfiguration) =>
     loggerConfiguration
         .ReadFrom.Configuration(context.Configuration)
         .ReadFrom.Services(services)
         .Enrich.FromLogContext());
 builder.Services.AddControllers(options =>
 {
-    options.ModelBinderProviders.Insert(0,new FileDataModelBinderProvider());
+    options.ModelBinderProviders.Insert(0, new FileDataModelBinderProvider());
 })
 .AddJsonOptions(o =>
 {
@@ -24,6 +25,9 @@ builder.Services.AddControllers(options =>
 });
 
 builder.Services.AddApplicationSerivces(builder.Configuration);
+builder.Services.AddApiDocumentation();
+builder.Services.AddJwtAuthentication(builder.Configuration);
+builder.Services.AddRateLimitingPolicies();
 
 var app = builder.Build();
 
@@ -34,7 +38,35 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+// Add Serilog request logging
+app.UseSerilogRequestLogging();
+
+// Add Security Headers using NetEscapades package
+app.UseSecurityHeaders(policies => policies
+    .AddDefaultSecurityHeaders()
+    .RemoveServerHeader()
+    .AddFrameOptionsDeny()
+    .AddXssProtectionBlock()
+    .AddContentTypeOptionsNoSniff()
+    .AddReferrerPolicyStrictOriginWhenCrossOrigin()
+    .AddContentSecurityPolicy(builder =>
+    {
+        builder.AddDefaultSrc().Self();
+        builder.AddScriptSrc().Self().UnsafeInline();
+        builder.AddStyleSrc().Self().UnsafeInline();
+        builder.AddImgSrc().Self().Data();
+        builder.AddFontSrc().Self().Data();
+        builder.AddConnectSrc().Self();
+        builder.AddFrameAncestors().None();
+        builder.AddBaseUri().Self();
+        builder.AddFormAction().Self();
+    })
+    .AddCustomHeader("Permissions-Policy", "geolocation=(), microphone=(), camera=()")
+    .AddCustomHeader("Cache-Control", "no-store, no-cache, must-revalidate, private")
+);
+
+// Global exception handling
+app.UseMiddleware<GlobalExceptionMiddleware>();
 
 app.UseHttpsRedirection();
 app.UseCors("DefaultCorsPolicy");
@@ -56,7 +88,7 @@ app.MapGet("/health", () =>
     };
     return Results.Ok(response);
 });
- 
+
 app.MapHealthChecks("/api/v1/health");
 
 // Startup log: addresses and health endpoint
@@ -68,7 +100,7 @@ app.Lifetime.ApplicationStarted.Register(() =>
         var server = app.Services.GetRequiredService<IServer>();
         var addressesFeature = server.Features.Get<IServerAddressesFeature>();
         var addresses = (IEnumerable<string>?)addressesFeature?.Addresses ?? app.Urls;
- 
+
         if (addresses != null && addresses.Any())
         {
             foreach (var addr in addresses)
@@ -93,17 +125,17 @@ using (var scope = app.Services.CreateScope())
 {
     var context = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
     var logger = scope.ServiceProvider.GetRequiredService<ILogger<Program>>();
- 
+
     try
     {
         logger.LogInformation("Checking database connection...");
- 
+
         // Ensure database is created (similar to Sequelize sync in Node.js)
         await context.Database.EnsureCreatedAsync();
- 
+
         logger.LogInformation("Database ready. Running seed data...");
         await DataSeeder.SeedAsync(context);
- 
+
         logger.LogInformation("Database initialization completed successfully");
     }
     catch (Exception ex)

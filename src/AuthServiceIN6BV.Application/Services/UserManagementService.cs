@@ -67,7 +67,7 @@ public class UserManagementService(IUserRepository users, IRoleRepository roles,
         return roleNames;
     }
 
-    public async Task<IReadOnlyList<UserResponseDto>> GetUsersByRoleAsync(string roleName)
+    public async Task<IReadOnlyList<UserResponseDto>> GetUsersByRolesAsync(string roleName)
     {
         roleName = roleName?.Trim().ToUpperInvariant() ?? string.Empty;
         var usersInRole = await roles.GetUsersByRoleAsync(roleName);

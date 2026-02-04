@@ -1,6 +1,6 @@
 using AuthServiceIN6BV.Application.Interfaces;
 using AuthServiceIN6BV.Application.Services;
-using AuthServiceIN6BV.Domain.Interface;
+using AuthServiceIN6BV.Domain.Interfaces;
 using AuthServiceIN6BV.Persistance.Repositories;
 using AuthServiceIN6BV.Persistance.Data;
 using Microsoft.EntityFrameworkCore;
@@ -18,6 +18,12 @@ public static class ServiceColectionExtensions
                 .UseSnakeCaseNamingConvention());
         services.AddScoped<IUserRepository, UserRepository>();
         services.AddScoped<IRoleRepository, RoleRepository>();
+        services.AddScoped<IAuthService, AuthService>();
+        services.AddScoped<IUserManagementService, UserManagementService>();
+        services.AddScoped<IPasswordHashService, PasswordHashService>();
+        services.AddScoped<IJwtTokenService, JwtTokenService>();
+        services.AddScoped<ICloudinaryService, CloudinaryService>();
+        services.AddScoped<IEmailService, EmailService>();
 
         services.AddHealthChecks();
 

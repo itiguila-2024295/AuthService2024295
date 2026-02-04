@@ -6,6 +6,6 @@ public class AuthResponseDto
     public string Message {get; set;} = string.Empty;
     public string Token {get; set; } = string.Empty;
 
-    public UserDetailsDto UserDatils {get; set;} = new();
+    public UserDetailsDto UserDetails {get; set;} = new();
     public DateTime ExpiresAt {get; set;}
 }

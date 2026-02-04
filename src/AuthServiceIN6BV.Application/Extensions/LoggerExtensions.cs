@@ -1,7 +1,7 @@
 using System;
 using Microsoft.Extensions.Logging;
 
-namespace AuthServiceIN6BV.Aplication.Extesions;
+namespace AuthServiceIN6BV.Application.Extensions;
 
 public static partial class LoggerExtensions
 {
@@ -26,7 +26,7 @@ public static partial class LoggerExtensions
         Message = "Failed login attempt"
     )]
 
-    public static partial void LogFaildedLoginAttempt(this ILogger logger);
+    public static partial void LogFailedLoginAttempt(this ILogger logger);
 
     [LoggerMessage(
        EventId = 1004,
