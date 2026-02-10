@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Informatica\\.nuget\\packages\\": {}
+    "C:\\Users\\ISAAC\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Ejercicios IN6BV\\AuthService2024295\\src\\AuthServiceIN6BV.Domain\\AuthServiceIN6BV.Domain.csproj",
+      "projectUniqueName": "C:\\6to2026\\AuthService2024295\\src\\AuthServiceIN6BV.Domain\\AuthServiceIN6BV.Domain.csproj",
       "projectName": "AuthServiceIN6BV.Domain",
-      "projectPath": "C:\\Ejercicios IN6BV\\AuthService2024295\\src\\AuthServiceIN6BV.Domain\\AuthServiceIN6BV.Domain.csproj",
-      "packagesPath": "C:\\Users\\Informatica\\.nuget\\packages\\",
-      "outputPath": "C:\\Ejercicios IN6BV\\AuthService2024295\\src\\AuthServiceIN6BV.Domain\\obj\\",
+      "projectPath": "C:\\6to2026\\AuthService2024295\\src\\AuthServiceIN6BV.Domain\\AuthServiceIN6BV.Domain.csproj",
+      "packagesPath": "C:\\Users\\ISAAC\\.nuget\\packages\\",
+      "outputPath": "C:\\6to2026\\AuthService2024295\\src\\AuthServiceIN6BV.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Informatica\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\ISAAC\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"

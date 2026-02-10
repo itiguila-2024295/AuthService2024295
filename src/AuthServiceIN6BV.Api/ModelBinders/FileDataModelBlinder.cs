@@ -11,7 +11,7 @@ public class FileDataModelBinder : IModelBinder
     public Task BindModelAsync(ModelBindingContext bindingContext)
     {
         ArgumentNullException.ThrowIfNull(bindingContext);
-        if (typeof(IFileData).IsAssignableFrom(bindingContext.ModelType))
+        if (!typeof(IFileData).IsAssignableFrom(bindingContext.ModelType))
         {
             return Task.CompletedTask;
         }

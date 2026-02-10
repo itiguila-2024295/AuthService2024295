@@ -30,3 +30,19 @@ C:\IN6BV\AuthService2024295\src\AuthServiceIN6BV.Application\bin\Debug\net8.0\Au
 C:\IN6BV\AuthService2024295\src\AuthServiceIN6BV.Application\obj\Debug\net8.0\AuthServiceIN6BV.Aplication.csproj.CopyComplete
 C:\IN6BV\AuthService2024295\src\AuthServiceIN6BV.Application\obj\Debug\net8.0\ref\AuthServiceIN6BV.Aplication.dll
 C:\Ejercicios IN6BV\AuthService2024295\src\AuthServiceIN6BV.Application\obj\Debug\net8.0\AuthServiceIN6BV.Aplication.sourcelink.json
+C:\6to2026\AuthService2024295\src\AuthServiceIN6BV.Application\bin\Debug\net8.0\AuthServiceIN6BV.Aplication.deps.json
+C:\6to2026\AuthService2024295\src\AuthServiceIN6BV.Application\bin\Debug\net8.0\AuthServiceIN6BV.Aplication.dll
+C:\6to2026\AuthService2024295\src\AuthServiceIN6BV.Application\bin\Debug\net8.0\AuthServiceIN6BV.Aplication.pdb
+C:\6to2026\AuthService2024295\src\AuthServiceIN6BV.Application\bin\Debug\net8.0\AuthServiceIN6BV.Domain.dll
+C:\6to2026\AuthService2024295\src\AuthServiceIN6BV.Application\bin\Debug\net8.0\AuthServiceIN6BV.Domain.pdb
+C:\6to2026\AuthService2024295\src\AuthServiceIN6BV.Application\obj\Debug\net8.0\AuthServiceIN6BV.Aplication.csproj.AssemblyReference.cache
+C:\6to2026\AuthService2024295\src\AuthServiceIN6BV.Application\obj\Debug\net8.0\AuthServiceIN6BV.Aplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\6to2026\AuthService2024295\src\AuthServiceIN6BV.Application\obj\Debug\net8.0\AuthServiceIN6BV.Aplication.AssemblyInfoInputs.cache
+C:\6to2026\AuthService2024295\src\AuthServiceIN6BV.Application\obj\Debug\net8.0\AuthServiceIN6BV.Aplication.AssemblyInfo.cs
+C:\6to2026\AuthService2024295\src\AuthServiceIN6BV.Application\obj\Debug\net8.0\AuthServiceIN6BV.Aplication.csproj.CoreCompileInputs.cache
+C:\6to2026\AuthService2024295\src\AuthServiceIN6BV.Application\obj\Debug\net8.0\AuthServiceIN6BV.Aplication.sourcelink.json
+C:\6to2026\AuthService2024295\src\AuthServiceIN6BV.Application\obj\Debug\net8.0\AuthServ.7A41EDBB.Up2Date
+C:\6to2026\AuthService2024295\src\AuthServiceIN6BV.Application\obj\Debug\net8.0\AuthServiceIN6BV.Aplication.dll
+C:\6to2026\AuthService2024295\src\AuthServiceIN6BV.Application\obj\Debug\net8.0\refint\AuthServiceIN6BV.Aplication.dll
+C:\6to2026\AuthService2024295\src\AuthServiceIN6BV.Application\obj\Debug\net8.0\AuthServiceIN6BV.Aplication.pdb
+C:\6to2026\AuthService2024295\src\AuthServiceIN6BV.Application\obj\Debug\net8.0\ref\AuthServiceIN6BV.Aplication.dll
